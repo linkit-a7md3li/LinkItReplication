@@ -3,6 +3,9 @@ using Microsoft.AspNetCore.Mvc;
 namespace Replication.API.Controllers
 {
     [ApiController]
+    [Produces("application/json")]
+    [ProducesResponseType(StatusCodes.Status200OK)]
+
     [Route("[controller]")]
     public class WeatherForecastController : ControllerBase
     {
