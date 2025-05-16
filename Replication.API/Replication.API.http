@@ -1,0 +1,6 @@
+@Replication.API_HostAddress = http://localhost:5027
+
+GET {{Replication.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
